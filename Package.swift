@@ -4,13 +4,13 @@ import PackageDescription
 let package = Package(
     name: "FlagKit",
     products: [
-        .library(name: "FlagKit", targets: ["App"]),
+        .library(name: "FlagKit", targets: ["FlagKit"]),
     ],
 //        path: "Sources",
     dependencies: [
     ],
     targets: [
-        .target(name: "App", dependencies: []),
+        .target(name: "FlagKit", dependencies: []),
     ]
 )
 
