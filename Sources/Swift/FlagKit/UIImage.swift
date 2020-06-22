@@ -12,6 +12,7 @@ extension UIImage {
     }
 }
 
+@available(iOS 10.0, *)
 internal extension UIImage {
     func rendereredImage(size outputSize: CGSize, action: (UIGraphicsImageRendererContext) -> Void) -> UIImage {
         let format = UIGraphicsImageRendererFormat()

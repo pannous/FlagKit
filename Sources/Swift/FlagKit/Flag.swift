@@ -11,6 +11,7 @@ import Foundation
 #endif
 
 @objc(FKFlag)
+@available(iOS 10.0, *)
 public class Flag: NSObject {
     /**
      Country code of the flag
